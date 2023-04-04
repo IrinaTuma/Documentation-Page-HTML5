@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="HTML5 Page" />
+    <title>HTML5 Page</title>
+    <link rel="stylesheet" href="styles.css"> 
+  </head>
+  <body>
+
+    <div class="contain">
+
+      <!-- navigation -->
+      <nav id="navbar">
+
+        <!-- header -->
+        <header>
+          <h1>HTML5 Page</h1>
+        </header>
+
+        <ul>
+          <li><a class="nav-link" href="#About">About</a></li>
+          <li><a class="nav-link" href="#History">History</a></li>
+          <li><a class="nav-link" href="#Features_and_APIs">Features and APIs</a></li>
+          <li><a class="nav-link" href="#Markup">Markup</a></li>
+          <li><a class="nav-link" href="#New_APIs">New APIs</a></li>
+          <li><a class="nav-link" href="#HTML5_differences">HTML5 differences</a></li>
+        </ul>
+      </nav>
+
+    <!-- technical documentation body -->
+    <main id="main-doc">
+
+      <!-- 1 section: About -->
+      <section class="main-section" id="About">
+        <header>About</header>
+        <p>HTML5 is a markup language used for structuring and presenting content on the World Wide Web. It is the fifth and final major HTML version that is a World Wide Web Consortium (W3C) recommendation. The current specification is known as the HTML Living Standard.</p>
+        <p>HTML5 was first released in a public-facing form on 22 January 2008, with a major update and "W3C Recommendation" status in October 2014. Its goals were to improve the language with support for the latest multimedia and other new features; to keep the language both easily readable by humans and consistently understood by computers and devices such as web browsers, parsers, etc., without XHTML's rigidity; and to remain backward-compatible with older software.</p>
+        <p>HTML5 includes detailed processing models to encourage more interoperable implementations; it extends, improves, and rationalizes the markup available for documents and introduces markup and application programming interfaces (APIs) for complex web applications. For the same reasons, HTML5 is also a candidate for cross-platform mobile applications because it includes features designed with low-powered devices in mind.</p>
+        <p>Many new syntactic features are included. To natively include and handle multimedia and graphical content, for example the new <span class="HTML_code"><span><</span><span>video</span><span>></span></span>, <span class="HTML_code"><span><</span><span>audio</span><span>></span></span> and <span class="HTML_code"><span><</span><span>canvas</span><span>></span></span> elements were added.</p>
+      </section>
+
+      <!-- 2 section: History -->
+      <section class="main-section" id="History">
+        <header>History</header>
+        <p>The Web Hypertext Application Technology Working Group (WHATWG) began work on the new standard in 2004. At that time, HTML 4.01 had not been updated since 2000, and the World Wide Web Consortium (W3C) was focusing future developments on XHTML 2.0. In 2009, the W3C allowed the XHTML 2.0 Working Group's charter to expire and decided not to renew it.</p>
+        <p>The Mozilla Foundation and Opera Software presented a position paper at a World Wide Web Consortium (W3C) workshop in June 2004, focusing on developing technologies that are backward-compatible with existing browsers, including an initial draft specification of Web Forms 2.0. The workshop concluded with a vote—8 for, 14 against—for continuing work on HTML. Immediately after the workshop, WHATWG was formed to start work based upon that position paper, and a second draft, Web Applications 1.0, was also announced. The two specifications were later merged to form HTML5. The HTML5 specification was adopted as the starting point of the work of the new HTML working group of the W3C in 2007.</p>
+        <p>WHATWG's Ian Hickson (Google) and David Hyatt (Apple) produced W3C's first public working draft of the specification on 22 January 2008.</p>
+
+        <p class="timeline">Timeline</p>
+        <div class="timeline-table">
+        <table>
+          <thead>
+            <tr>
+              <th>Version</th>
+              <th>First draft</th>
+              <th>Candidate recommendation</th>
+              <th>Recommendation</th>
+              <th>Retired</th>
+            </tr>
+          <thead>
+          <tbody>
+            <tr>
+              <td>HTML5</td>
+              <td>1 May 2007</td>
+              <td>17 December 2012</td>
+              <td>28 October 2014</td>
+              <td>27 March 2018</td>
+            </tr>
+            <tr>
+              <td>HTML5.1</td>
+              <td>17 December 2012</td>
+              <td>21 June 2016</td>
+              <td>1 November 2016</td>
+              <td>28 January 2021</td>
+            </tr>
+            <tr>
+              <td>HTML 5.1 2nd Edition</td>
+              <td class="empty">—</td>
+              <td>20 June 2017</td>
+              <td>3 October 2017</td>
+              <td>28 January 2021</td>
+            </tr>
+            <tr>
+              <td>HTML 5.2</td>
+              <td>18 August 2016</td>
+              <td>8 August 2017</td>
+              <td>14 December 2017</td>
+              <td>28 January 2021</td>
+            </tr>
+                        <tr>
+              <td>HTML 5.3</td>
+              <td>14 December 2017</td>
+              <td class="empty">—</td>
+              <td class="empty">—</td>
+              <td>28 January 2021</td>
+            </tr>
+          </tbody>
+        </table>
+        </div>
+      </section>
+
+      <!-- 3 section: Features and APIs -->
+      <section class="main-section" id="Features_and_APIs">
+        <header>Features and APIs</header>
+        <p>The W3C proposed a greater reliance on modularity as a key part of the plan to make faster progress, meaning identifying specific features, either proposed or already existing in the spec, and advancing them as separate specifications. Some technologies that were originally defined in HTML5 itself are now defined in separate specifications:</p>
+
+        <div class="list">
+          <ul>
+            <li>HTML Working Group – HTML Canvas 2D Context;</li>
+            <li>Web Apps Working Group – Web Messaging, Web workers, Web storage, WebSocket, Server-sent events, Web Components (this was not part of HTML5, though); the Web Applications Working Group was closed in October 2015 and its deliverables transferred to the Web Platform Working Group (WPWG);</li>
+            <li>IETF HyBi Working Group – WebSocket Protocol;</li>
+            <li>WebRTC Working Group – WebRTC;</li>
+            <li>Web Media Text Tracks Community Group – WebVTT.</li>
+          </ul>
+        </div>
+ 
+        <p>Some features that were removed from the original HTML5 specification have been standardized separately as modules, such as Microdata and Canvas. Technical specifications introduced as HTML5 extensions such as Polyglot markup have also been standardized as modules. Some W3C specifications that were originally separate specifications have been adapted as HTML5 extensions or features, such as SVG. Some features that might have slowed down the standardization of HTML5 were or will be standardized as upcoming specifications, instead.</p>
+      </section>
+
+      <!-- 4 section: Markup -->
+      <section class="main-section" id="Markup">
+        <header>Markup</header>
+        <p>HTML5 introduces elements and attributes that reflect typical usage on modern websites. Some of them are semantic replacements for common uses of generic block (<span class="HTML_code"><span><</span><span>div</span><span>></span></span>) and inline (<span class="HTML_code"><span><</span><span>span</span><span>></span></span>) elements, for example <span class="HTML_code"><span><</span><span>nav</span><span>></span></span> (website navigation block), <span class="HTML_code"><span><</span><span>footer</span><span>></span></span> (usually referring to bottom of web page or to last lines of HTML code), or <span class="HTML_code"><span><</span><span>audio</span><span>></span></span> and <span class="HTML_code"><span><</span><span>video</span><span>></span></span> instead of <object>. Some deprecated elements from HTML 4.01 have been dropped, including purely presentational elements such as <span class="HTML_code"><span><</span><span>font</span><span>></span></span> and <span class="HTML_code"><span><</span><span>center</span><span>></span></span>, whose effects have long been superseded by the more capable Cascading Style Sheets. There is also a renewed emphasis on the importance of client-side JavaScript used to create dynamic web pages.</p>
+        <p>The HTML5 syntax is no longer based on SGML despite the similarity of its markup. It has, however, been designed to be backward-compatible with common parsing of older versions of HTML. It comes with a new introductory line that looks like an SGML document type declaration, <span class="HTML_code"><span><</span><span>!</span><span>DOCTYPE html</span><span>></span></span>, which triggers the standards-compliant rendering mode. Since 5 January 2009, HTML5 also includes Web Forms 2.0, a previously separate WHATWG specification.</p>
+      </section>
+
+      <!-- 5 section: New APIs -->
+      <section class="main-section" id="New_APIs">
+        <header>New APIs</header>
+        <p>In addition to specifying markup, HTML5 specifies scripting application programming interfaces (APIs) that can be used with JavaScript. Existing Document Object Model (DOM) interfaces are extended and de facto features documented. There are also new APIs, such as:</p>
+        <div class="list">
+        <ul>
+          <li>Canvas;</li>
+          <li>Timed Media Playback;</li>
+          <li>Offline;</li>
+          <li>Editable content;</li>
+          <li>Drag and drop;</li>
+          <li>History;</li>
+          <li>MIME type and protocol handler registration;</li>
+          <li>Microdata;</li>
+          <li>Web Messaging;</li>
+          <li>Web Storage – a key-value pair storage framework that provides behavior similar to cookies but with larger storage capacity and improved API.</li>
+        </ul>
+        </div>
+        <p>Not all of the above technologies are included in the W3C HTML5 specification, though they are in the WHATWG HTML specification. Some related technologies, which are not part of either the W3C HTML5 or the WHATWG HTML specification, are as follows. The W3C publishes specifications for these separately:</p>
+        <div class="list">
+        <ul>
+          <li>Geolocation;</li>
+          <li>IndexedDB – an indexed hierarchical key-value store (formerly WebSimpleDB);</li>
+          <li>File – an API intended to handle file uploads and file manipulation;</li>
+          <li>Directories and System – an API intended to satisfy client-side-storage use cases not well served by databases;</li>
+          <li>File Writer – an API for writing to files from web applications;</li>
+          <li>Web Audio – a high-level JavaScript API for processing and synthesizing audio in web applications;</li>
+          <li>ClassList;</li>
+          <li>Web cryptography API;</li>
+          <li>WebRTC;</li>
+          <li>Web SQL Database – a local SQL Database (no longer maintained).</li>
+        </ul>
+        </div>
+        <p>HTML5 cannot provide animation within web pages. Additional JavaScript or CSS3 is necessary for animating HTML elements. Animation is also possible using JavaScript and HTML4, and within SVG elements through SMIL, although browser support of the latter remains uneven as of 2011.</p>
+      </section>
+
+      <!-- 6 section: Differences from HTML 4.01 and XHTML 1.x -->
+      <section class="main-section" id="HTML5_differences">
+        <header>HTML5 differences</header>
+        <p>The following is a cursory list of differences and some specific examples.</p>
+        <div class="list">
+        <ul>
+          <li>New parsing rules: oriented towards flexible parsing and compatibility; not based on SGML</li>
+          <li>Ability to use inline SVG and MathML in <code>text/html</code></li>
+          <li>New elements: <code>article</code>, <code>aside</code>, <code>audio</code>, <code>bdi</code>, <code>canvas</code>, <code>command</code>, <code>data</code>, <code>datalist</code>, <code>details</code>, <code>embed</code>, <code>figcaption</code>, <code>figure</code>, <code>footer</code>, <code>header</code>, <code>keygen</code>, <code>mark</code>, <code>meter</code>, <code>nav</code>, <code>output</code>, <code>progress</code>, <code>rp</code>, <code>rt</code>, <code>ruby</code>, <code>section</code>, <code>source</code>, <code>summary</code>, <code>time</code>, <code>track</code>, <code>video</code>, <code>wbr</code></li>
+          <li>New types of form controls: <code>dates and times</code>, <code>email</code>, <code>url</code>, <code>search</code>, <code>number</code>, <code>range</code>, <code>tel</code>, <code>color</code></li>
+          <li>New attributes: <code>charset</code> (on <code>meta</code>), <code>async</code> (on <code>script</code>)</li>
+          <li>Global attributes (that can be applied for every element): <code>id</code>, <code>tabindex</code>, <code>hidden</code>, <code>data-*</code> (custom data attributes)</li>
+          <li>Deprecated elements will be dropped altogether: <code>acronym</code>, <code>applet</code>, <code>basefont</code>, <code>big</code>, <code>center</code>, <code>dir</code>, <code>font</code>, <code>frame</code>, <code>frameset</code>, <code>isindex</code>, <code>noframes</code>, <code>strike</code>, <code>tt</code></li>
+        </ul>
+        </div>
+        <p>W3C Working Group publishes "HTML5 differences from HTML 4", which provides a complete outline of additions, removals and changes between HTML5 and HTML4.</p>
+      </section>
+    </main>
+    </div>
+  </body>
+</html>
