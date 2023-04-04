@@ -1,0 +1,183 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif; 
+}
+
+body {
+  overflow: hidden;
+  height: 100vh;
+}
+
+main {
+  overflow-x: clip;
+  overflow-y: auto;
+  line-height: 1.5;
+  font-size: 1.6rem;
+  padding-left: 2.8rem;
+  width:100vw;
+}
+
+#navbar {
+  flex: 0 0 250px;
+  border-right: 3px solid #cfcfcf;
+}
+
+.contain {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+
+h1 {
+  font-size: 2.2rem;
+  font-weight: 600;
+  padding: 0 1rem 2rem 5rem;
+  margin: 0 0 -1rem -4rem;
+  border-bottom: 1px solid #cfcfcf;
+}
+
+nav > ul > li {
+  display: block;
+  list-style-type: none;
+  list-style-position: outside;
+  font-size: 1.8rem;
+  padding: 1rem 1rem 1rem 2.5rem;
+  margin: 0 0 0 -5rem;
+  border-bottom: 1px solid #cfcfcf;
+  cursor: pointer;
+}
+
+nav > ul > li:last-of-type {
+  border-bottom: none;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: black 
+}
+
+a:hover {
+  color: black;
+}
+
+a:active {
+  color: black;  
+}
+
+a:visited {
+  color: black;
+}
+
+header {
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-top: 4.8rem
+}
+
+header:first-of-type {
+  margin-top: 4.0rem
+}
+
+
+section {
+  width: 95%;
+  max-width: 100rem;
+}
+
+
+.timeline-table {
+overflow-x: auto;
+}
+
+.timeline {
+  font-weight: bold;
+  margin-top: 3.6rem
+}
+
+
+table {
+  border-collapse: collapse;
+  text-align: center;
+  max-width: 850px;
+}
+
+th, td {
+  border: 1px solid #cfcfcf;
+  padding: 1rem;
+}
+
+th {
+  background-color: #f0f0f0;
+}
+
+.empty {
+  background-color: #f0f0f0;
+}
+
+.HTML_code, code {
+  background-color: #f0f0f0;
+  outline: 1px solid #cfcfcf;
+  outline-offset: -1px;
+  padding: 0 0.6rem;
+}
+
+code {
+  font-family: "Open Sans", sans-serif;
+}
+
+
+@media (max-width: 500px) {
+  
+  body {
+    overflow: auto;
+  }
+
+  main {
+    overflow: auto;
+    padding-left: 1.6rem;
+    width:85vw;
+  }
+  
+  .contain {
+    display: block;
+    
+  }
+  #navbar {
+    flex: none;
+    border-right: none;
+
+  }
+  h1 {
+    display: block;
+    font-size: 2.6rem;
+    text-align: center;
+    padding: 0rem 1rem 2rem 1rem;
+    margin: 0 auto;
+    border-bottom: none;
+    min-width: 100px;
+  }
+  nav > ul {
+    display: block;
+    border: 1px solid #cfcfcf;
+    width: 50vw;
+    margin: 0 auto;
+    min-width: 100px;
+  }
+  nav > ul > li {
+    padding: 1.5rem 2.5rem;
+    margin: 0 0 0 -4rem;
+    text-align: center;
+    font-size: 2.0rem;
+  }
+
+  th, td {
+    padding: 0.5rem 1rem;
+  }
+
+  header {
+    font-size: 2.2rem;
+  }
+}
