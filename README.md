@@ -1,6 +1,6 @@
 ## Documentation page (HTML5)
 
-It's a [documentation page.](https://irinatuma.github.io/Health-survey-form/)
+It's a [documentation page.](https://irinatuma.github.io/Documentation-Page-HTML5/)
 
 There are fixed side navbar and top navbar for mobile screen, text with headers, lists and table. 
 
